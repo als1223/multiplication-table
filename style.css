@@ -1,0 +1,19 @@
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  td {
+    padding: 16px;
+    font-size: 18px;
+
+  }
+  td:first-child,
+  tr:first-child {
+    background-color: bisque;
+  }
+  .hl {
+    background-color: darksalmon
+  }
+
+  

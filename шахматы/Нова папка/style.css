@@ -1,0 +1,75 @@
+.cell{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    border: 2px  solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+
+.row {
+    display: flex;
+
+}
+
+.lol1{
+    width: 218px;
+    height: 40px  ;
+    background-color: bisque;
+    border: 2px  solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;    
+    text-align: right;
+    padding-right: 8px;
+    margin: 2px;
+}
+    
+
+
+.right {
+    font-weight: 900;
+}
+
+.last{
+    background-color: brown;
+    color: white;
+}
+.calc{
+    border:solid rgba(0, 0, 0, 0.5); 
+    width: 240px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    position: relative;
+    margin: 0 auto;
+}
+.clear{
+    background: rgb(255, 0, 0);
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    user-select: none;
+}
+body{
+    user-select: none;
+}
+.cell:hover{
+    filter:contrast(0.8)
+
+}
